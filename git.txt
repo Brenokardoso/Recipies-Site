@@ -1,0 +1,11 @@
+depois de ter configurado a sua chave SSH
+faça os seguintes passos
+
+' git config --global user.name "Breno Kardoso" '
+' git config --global user.email "brenopositivo@hotmail.com" '
+' git config --global init.defaultBranch main '
+
+git init
+
+'it remote add origin  "seu repositorio"= "(https://github.com/Brenokardoso/Django.git)" '
+'git remote -v'
