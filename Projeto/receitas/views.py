@@ -1,14 +1,6 @@
 from django.shortcuts import render
-from django.http import HttpResponse
-import datetime
-
 
 
 def home(request):
-    return render(request,"receitas/home.html",context={ 'nome' : 'Breno cardoso'})
+    return render(request,"receitas/page/home.html",context={ 'nome' : 'Breno Cardoso'},status='214')
 
-def contato(request):
-    return render(request,"temp.html")
-
-def sobre(request):
-    return HttpResponse(f"Essa foi uma pagina feita com django usando")
